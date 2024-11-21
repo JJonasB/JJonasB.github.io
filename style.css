@@ -1,122 +1,228 @@
-* {
-    box-sizing: border-box;
-  }
-  
-  body {
-    margin: 0;
-    padding: 0;
-    font-family: sans-serif;
-  }
-  
-  header {
-    background-color: #1D1D1D;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px;
-  }
-  
-  .logo {
-    color: #fff;
-    font-size: 1.5em;
-  }
-  
-  nav {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-  }
-  
-  nav li {
-    display: inline-block;
-    margin-right: 20px;
-  }
-  
-  nav a {
-    color: #fff;
-    text-decoration: none;
-  }
-  
-  #stay {
-    background-color: #f1f1f1;
-    border-radius: 5px;
-    padding: 20px;
-    text-align: center;
-  }
-  
-  .profile-container {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-  }
-  
-  .profile {
-    margin: 10px;
-    text-align: center;
-  }
-  
-  .profile-pic {
-    width: 80px;
-    height: 80px;
-    border-radius: 50%;
-    margin-bottom: 5px;
-    border: #fff 3px solid;
-  }
-  
-  .profile-name {
-    display: block;
-    font-weight: bold;
-  }
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
-  .textd ul{
-    text-decoration: none;
-    text-decoration-style: none;
-  }
-  
-  #about {
-    background-color: #f1f1f1;
-    border-radius: 5px;
-    padding: 20px;
-  }
-  
-  .profile-card {
-    display: flex;
-    align-items: center;
-    margin-bottom: 20px;
-  }
-  
-  .profile-pic {
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    margin-right: 20px;
-  }
-  
-  #projects {
-    padding-bottom: 20px;
-  }
-  
-  .project-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 20px;
-  }
-  
-  footer {
-    background-color: #f1f1f1;
-    text-align: center;
-    padding: 10px;
-  }
-  
-  footer ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-  }
-  
-  footer li {
-    display: inline-block;
-    margin-right: 20px;
-  }
-  
-  
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+        body {
+             overflow-x:hidden; 
+             overflow-y: hidden;
+            }
+        
+        .Homepage {
+                width: 1700px;
+                height: 800px;
+                position: relative;
+                background: white;
+            }
+            
+        .Rectangle1 {
+            width: 750px;
+            height: 850px;
+            max-height: 10000px;
+            left: 0px;
+            top: 0px;
+            position: absolute;
+            background: #FDBF19;
+            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        }
+            
+        .Rectangle2 {
+            width: 850px;
+            height: 850px;
+            max-height: 10000px;
+            left: 750px;
+            top: 0px;
+            position: absolute;
+            background: #3968B0;
+            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        }
+            
+        .Jjonasb {
+            width: 206px;
+            height: 32px;
+            left: 649px;
+            top: 430px;
+            position: absolute;
+            color: black;
+            font-size: 48px;
+            font-family: 'Courier Prime', monospace;
+            font-weight: 400;
+            word-wrap: break-word;
+        }
+            
+        .Image {
+            width: 223px;
+            height: 208px;
+            left: 641px;
+            top: 220px;
+            position: absolute;
+            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25) inset;
+            border-radius: 9999px;
+            border: 1px black solid;
+        }
+            
+        .Github, .Home, .AboutMe, .Projects {
+            width: auto; /* Adjust width if necessary */
+            height: 36px;
+            position: absolute;
+            color: #000C8C;
+            font-size: 40px;
+            font-family: 'Courier Prime', monospace;
+            font-weight: 400;
+            word-wrap: break-word;
+        }
+            
+        .Github {
+            left: 533px;
+            top: 496px;
+        }
+            
+        .Home {
+            left: 357px;
+            top: 77px;
+            }
+            
+        .AboutMe {
+            left: 1000px;
+            top: 72px;
+        }
+            
+        .Projects {
+            left: 830px;
+            top: 496px;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        a:hover {
+            color: #001028;
+        }
+
+        .AboutMeDraft {
+            width: 1700px;
+            height: 810px;
+            position: relative;
+            background: white;
+            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+            border: 1px black solid;
+        }
+
+        .MyHobbies {
+            width: 247px;
+            height: 33px;
+            left: 824px;
+            top: 132px;
+            position: absolute;
+            color: black;
+            font-size: 36px;
+            font-family: 'Courier Prime', monospace;
+            font-weight: 400;
+            word-wrap: break-word;
+        }
+        
+        .HobbiesDescription {
+            width: 657px;
+            height: 324px;
+            left: 876px;
+            top: 172px;
+            position: absolute;
+            color: black;
+            font-size: 28px;
+            font-family: 'Courier Prime', monospace;
+            font-weight: 400;
+            word-wrap: break-word;
+        }
+        
+        .PersonalInfo {
+            width: 659px;
+            height: 438px;
+            left: 46px;
+            top: 125px;
+            position: absolute;
+            color: black;
+            font-size: 28px;
+            font-family: 'Courier Prime', monospace;
+            font-weight: 400;
+            word-wrap: break-word;
+        }
+        
+        .ProjectImage {
+            width: 503px;
+            height: 340px;
+            position: absolute;
+            left: 120px;
+            top: 410px;
+            transform-origin: 0 0;
+            border-radius: 32px;
+        }
+        
+        .ShapesThingyFirstProject, .JframeCalculatorSecondProject, .FirstProjectDescription, .SecondProjectDescription, .SourceCode, .SourceCode2{
+            position: absolute;
+            color: black;
+            font-family: 'Courier Prime', monospace;
+            font-weight: 400;
+            word-wrap: break-word;
+        }
+        
+        .ShapesThingyFirstProject {
+            width: 265px;
+            height: 66px;
+            left: 240px;
+            top: 329px;
+            text-align: center;
+            font-size: 29px;
+        }
+        
+        .JframeCalculatorSecondProject {
+            width: 308px;
+            height: 66px;
+         left: 1001px;
+            top: 977px;
+            text-align: center;
+            font-size: 29px;
+        }
+        
+        .FirstProjectDescription {
+            width: 719px;
+            height: 352px;
+            left: 795px;
+            top: 406px;
+            font-size: 28px;
+        }
+        
+        .SecondProjectDescription {
+            width: 686px;
+            height: 429px;
+            left: 51px;
+            top: 1033px;
+            font-size: 28px;
+        }
+        
+        .SourceCode {
+            width: 265px;
+            height: 45px;
+            left: 240px;
+            top: 800px;
+            color: #000C8C;
+            font-size: 40px;
+        }
+        .SourceCode2 {
+            width: 265px;
+            height: 45px;
+            left: 1000px;
+            top: 1500px;
+            color: #000C8C;
+            font-size: 40px;
+        }
+        
+        .SourceCodeImage {
+            width: 578px;
+            height: 392px;
+            left: 867px;
+            top: 1076px;
+            position: absolute;
+            border-radius: 13px;
+        }
